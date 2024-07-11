@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require("sequelize");
-const sequelize = require("../config/connection"); // Ensure the correct path
+const sequelize = require("../config/connection.js"); // Correct path
 
 class Category extends Model {}
 
